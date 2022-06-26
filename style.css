@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image:url("dark.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    background-image: linear-gradient(45deg,grey,grey);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+header input{
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 3px solid blue;
+    color:#313131 ;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+}
+
+header input:focus{
+    background-color: rgba(255,255,255,0.6)
+}
+
+main{
+    flex: 1 1 100;
+    padding: 25px 25px 50x;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.location .city{
+    color: antiquewhite;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.location .date{
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.current .temp{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 20px;
+}
+.current .feels{
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: bold ;
+    margin-top: 20px;
+}
+.current  .weather{
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: italic ;
+    margin-top: 20px;
+}
+.current .hi-low{
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 20px;
+}
